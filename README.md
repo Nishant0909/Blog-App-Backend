@@ -53,7 +53,7 @@ bloghub-backend/
 
 1. Clone the repo:
 ```bash
-git clone https://github.com/your-username/bloghub-backend.git
+git clone https://github.com/Nishant0909/Blog-App-Backend
 cd bloghub-backend
 ```
 
@@ -123,5 +123,5 @@ August 01, 2025
 ## 🧑 Author
 
 **Nishant Jain**  
-GitHub: [@your-username](https://github.com/your-username)
+GitHub: [Nishant0909](https://github.com/Nishant0909)
 
