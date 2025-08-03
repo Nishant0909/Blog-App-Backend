@@ -70,9 +70,13 @@ MONGO_URI=mongodb://localhost:27017/bloghub
 JWT_SECRET=your_jwt_secret_here
 ```
 
-4. Start the server in development mode:
+4. Start the server:
 ```bash
 npm run dev
+```
+or
+```bash
+npm start
 ```
 
 ---
