@@ -18,7 +18,7 @@ exports.registerUser = async ({ name, email, password }) => {
         _id: user._id,
         name: user.name,
         email: user.email,
-        token: generateToken(user._id),
+        token: generateToken(user._id, user.name),
     };
 };
 
@@ -33,6 +33,6 @@ exports.loginUser = async ({ email, password }) => {
         _id: user._id,
         name: user.name,
         email: user.email,
-        token: generateToken(user._id),
+        token: generateToken(user._id, user.name),
     }
 }

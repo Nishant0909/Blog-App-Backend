@@ -4,5 +4,8 @@ const { registerController, loginController } = require('../controllers/authCont
 
 router.post('/register', registerController);
 router.post('/login', loginController);
+router.post("/logout", (req, res) => {
+  return res.status(200).json({ message: "Logged out successfully" });
+});
 
 module.exports = router;
